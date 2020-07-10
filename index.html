@@ -7,6 +7,47 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<style>
+		/* Extra small devices (phones, 600px and down) */
+		@media only screen and (max-width: 600px) {
+			.hero {
+				background: url('./img/hero-sm.jpg') no-repeat center center fixed;
+				background-size: cover;
+			}
+		}
+
+		/* Small devices (portrait tablets and large phones, 600px and up) */
+		@media only screen and (min-width: 600px) {
+			.hero {
+				background: url('./img/hero-sm.jpg') no-repeat center center fixed;
+				background-size: cover;
+			}
+		}
+
+		/* Medium devices (landscape tablets, 768px and up) */
+		@media only screen and (min-width: 768px) {
+			.hero {
+				background: url('./img/hero-md.jpg') no-repeat center center fixed;
+				background-size: cover;
+			}
+		}
+
+		/* Large devices (laptops/desktops, 992px and up) */
+		@media only screen and (min-width: 992px) {
+			.hero {
+				background: url('./img/hero-lg.jpg') no-repeat center center fixed;
+				background-size: cover;
+			}
+		}
+
+		/* Extra large devices (large laptops and desktops, 1200px and up) */
+		@media only screen and (min-width: 1200px) {
+			.hero {
+				background: url('./img/hero-lg.jpg') no-repeat center center fixed;
+				background-size: cover;
+			}
+		}
+	</style>
 	
 </head>
 <body>
@@ -280,12 +321,12 @@
 	</footer>
 	<!--  End Footer Section  -->
 
+	<script src="js/jquery.js"></script>
 	<script src="js/parallax.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/ajaxchimp.js"></script>
 	<script src="js/wow.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.js"></script>
 
 </body>
 </html>
